@@ -1,9 +1,13 @@
 # Requirements
 ## Introduction
-    DTH Billing System is an application that enables users to add and store DTH BILLING Records. DTH Billing System is developed to maintain the details of DTH Billing using smartcard numbers and names. The aim of the system is to develope “DTH BILLING SYSTEM” software, which should automate the process to create and store DTH Billing record details. The system is supposed to be used as a subsystem in a large office system, which could be manual system or a computerized one.
+    DTH Billing System is an application that enables users to add and store DTH BILLING Records. 
+    DTH Billing System is developed to maintain the details of DTH Billing using smartcard numbers and names. 
+    The aim of the system is to develope “DTH BILLING SYSTEM” software, which should automate the process to create and store DTH Billing record details.
+    The system is supposed to be used as a subsystem in a large office system, which could be manual system or a computerized one.
 
 ## Research
-    DTH Billing System is a small project, you may perform and handle billing processes in the same way as broadcasting businesses services do. You can add records with names, smartcard numbers, and payment amounts here. Existing records can be viewed, modified, searched, and deleted.
+    DTH Billing System is a small project, you may perform and handle billing processes in the same way as broadcasting businesses services do. 
+    You can add records with names, smartcard numbers, and payment amounts here. Existing records can be viewed, modified, searched, and deleted.
 
 ## Features and Timeline
     • Major activities of the manual system is automated, which increases its throughput.
