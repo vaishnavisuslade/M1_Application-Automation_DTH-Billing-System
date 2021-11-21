@@ -64,7 +64,7 @@
 
 | ID | Description | Status |
 |-------|------|------|
-| LLR1 | User shall be able to fet perfect bill amount | Implemented 
+| LLR1 | User shall be able to fetch perfect bill amount | Implemented 
 | LLR2 |System must display data without error | Implemented
 
 
