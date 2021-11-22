@@ -11,3 +11,6 @@ DTH Billing System is an application that enables users to add and store DTH BIL
 
 # cppcheck
 [![Code Quality - Static Code - Cppcheck](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/cpp-check.yml/badge.svg)](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/cpp-check.yml)
+
+# codacy
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/166973663dec411cbd262709a4df84f3)](https://www.codacy.com/gh/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vaishnavisuslade/M1_Application-Automation_DTH-Billing-System&amp;utm_campaign=Badge_Grade)
