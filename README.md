@@ -17,3 +17,5 @@ DTH Billing System is an application that enables users to add and store DTH BIL
 [![C/C++ CI UnitTesting](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/Unity.yml/badge.svg)](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/Unity.yml)
 
 [![Code Quality - Static Code - Cppcheck](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/c-cpp.yml)
+
+[![Code Quality - Static Code - Cppcheck](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/c-cpp.yml)
