@@ -1,8 +1,8 @@
 
-<<<<<<< HEAD
+<<<<<<< HEAD <<<<<<<
 # M1_Application-Automation_DTH-Billing-System
 
-=======
+==================
  
 #  Code-Inspector Badges
 
