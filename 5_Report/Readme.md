@@ -1,52 +1,129 @@
 
-<<<<<<< HEAD <<<<<<<
-# M1_Application-Automation_DTH-Billing-System
+# Requirements
+## Introduction
+   ##### DTH Billing System is an application that enables users to add and store DTH BILLING Records. DTH Billing System is developed to maintain the details of DTH Billing using smartcard numbers and names. The aim of the system is to develope “DTH BILLING SYSTEM” software, which should automate the process to create and store DTH Billing record details. The system is supposed to be used as a subsystem in a large office system, which could be manual system or a computerized one.
 
-==================
- 
-#  Code-Inspector Badges
+## Research
+  #####  DTH Billing System is a small project, you may perform and handle billing processes in the same way as broadcasting businesses services do. You can add records with names, smartcard numbers, and payment amounts here. Existing records can be viewed, modified, searched, and deleted.
 
-Build | Cpp Check | Unity | Codacy
-------|----------|-------|--------------
-[![C/C++ Build](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/Build.yml/badge.svg)](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/Build.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/cpp-check.yml/badge.svg)](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/cpp-check.yml) | [![C/C++ CI UnitTesting](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/Unity.yml/badge.svg)](https://github.com/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/actions/workflows/Unity.yml)  | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/166973663dec411cbd262709a4df84f3)](https://www.codacy.com/gh/vaishnavisuslade/M1_Application-Automation_DTH-Billing-System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vaishnavisuslade/M1_Application-Automation_DTH-Billing-System&amp;utm_campaign=Badge_Grade)
-
-## Folder Structure
-Folder               | Description
--------------------  | -----------------------------------------
-`1_Requirements`     | Documents Detailing requirements and research.
-`2_Architecture`     | Documents Specifying design details.
-`3_Implementation`   | All Code and Documentation.
-`4_Test Plan`| Test Cases.
-
-## Functions 
-
-| Feature Id | Feature |
-| -----------|---------|
-|F_01| Adding the Records  |
-|F_02| Deleting the Records  |
-|F_03| Searching the Records |
-|F_04| Listing the records |
-|F_05| Payment |
-|F_06| Modify the Records|
+## Features and Timeline
+##### • Major activities of the manual system is automated, which increases its throughput.
+• The system is fast, user friendly and interactive
+• The information entered is more accurate and clear
+• Better data management facility in terms of maintaining files which are entered  in registers manually and stored.
 
 
-## Integrated Tools to GitHub
-* [Codacy](https://www.codacy.com/)
+## Defining our System
+##### • Add Records.
+#####     • Delete Records.
+#####     • Search Records.
+#####     • List Records.
+#####     • Payment.
+#####     • Modify Records.
+
+## SWOT ANALYSIS
+### Strengths:
+##### • To reduce workload to staff.
+##### • To reduce the delay in processing time.
+#####  • To reduce the delay in bill generation.
+##### • To provide greater flexibility. 
+##### • Make maintenance changes easy.
+    
+### Weakness:
+##### • Late payments when network problem arises.
+    
+### Opportunities:
+#####     • TV Services
+    
+### Threats:
+#####  • System Crash Errors and ommision
+
+## 4W's and 1H 
+#### Who: 
+#####    DTH Billing Management. 
+#### What: 
+#####   DTH Billing Records. 
+#### When: 
+#####     There was problem of storing data manually but advancement in technologies helped in storing data and accessing it easily. 
+#### Where: 
+#####    This project can be used for DTH Billing. 
+#### How:
+#####  The inconvinience is caused in storing data manually and accessing it.Digitally storing data will be helpful in accessing data easily and modifying it.
+
+## Details requirements
+### High Level Requirements:
+| ID | Description | Status |
+|------| ------| ------|
+| HLR1 | User shall be able to add new records (A) | Implemented
+|HLR2  | User shall be able to List of records (L) | Implemented
+|HLR3  | User shall be able to Modifying records (M) |	Implemented
+|HLR4  | User shall be able to Payment (P) |	Implemented
+|HLR5  | User shall be able For searching records(S) |	Implemented
+|HLR6  | User shall be able to Deleting records(D) |	Implemented
+
+#### Low Level Requirements:
+
+| ID | Description | Status |
+|-------|------|------|
+| LLR1 | User shall be able to fetch perfect bill amount | Implemented 
+| LLR2 |System must display data without error | Implemented
 
 
-## Challenges Faced and How Was It Overcome
 
-1.GCC erorr in windows and linux: installed the gcc msys64 mingw64 properly.
+# Design
 
-2.Generation of makefile: To overcome this problem research on makefiles was done.
 
-3.Unity testing: Initially a few testcases did not pass, to overcome this issue debugging of program was performed.
+## Behavioural Diagram
 
-## Learning Resources
+![Behavioural](https://user-images.githubusercontent.com/50225786/142906440-1f580f3c-447a-450a-816b-baa0bbef22ef.jpg)
 
-1.[gcc makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html#zz-2.1)
+## Structural Diagram
 
-2.[github workflow](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
+![structural](https://user-images.githubusercontent.com/50225786/142906439-3c9ecc23-7375-474a-9e06-ed4e82877912.PNG)
 
-3.[structure in c](https://www.studytonight.com/c/structures-in-c.php/)
+## User Diagram
+
+![User](https://user-images.githubusercontent.com/50225786/142906441-1ed158af-a9f4-4cdc-b40f-e3d3f1185efa.jpeg)
+
+
+
+# Test Cases:
+
+### High Level Test Cases:
+| Test Id |	keys |	Description |	Expected output |	Actual output |	Pass/Fail(Result) |
+|------|------|------|------|------|------|
+| TID 1 | A | Adding Records | SUCCESS |	SUCCESS |	PASS 
+| TID 2 |	L	| List of Records|	SUCCESS	| SUCCESS	 | PASS
+| TID 3	| M	| Modifying | Records |	SUCCESS |	SUCCESS	|PASS
+| TID 4 |	P	| Payment	| SUCCESS	| SUCCESS	| PASS
+| TID 5	| S	| Searching Records | SUCCESS |	SUCCESS | PASS
+| TID 6	| D |	Deleting Records | SUCCESS |	SUCCESS	| PASS
+
+
+#### Low Level Test Cases:
+| Test Id |	Description |	Expected output |	Actual output |	Pass/Fail(Result) |
+|------|------|------|------|------|
+| TID 1 | User shall be able to fetch perfect bill amount | SUCCESS | SUCCESS | PASS 
+| TID 2 |System must display data without error | SUCCESS | SUCCESS |  PASS
+
+
+# OUTPUT:
+
+### welcome Page:
+
+![2](https://user-images.githubusercontent.com/50225786/143028588-b2c4e470-9cc8-4dc8-8132-f6aa0b8217fc.PNG)
+
+### Records:
+
+![3](https://user-images.githubusercontent.com/50225786/143028608-b90fcd75-389c-4bd6-ac9a-55ce4a3359c5.PNG)
+
+### System Generated Bill:
+
+![4](https://user-images.githubusercontent.com/50225786/143028668-c3ae9691-633b-43c5-961a-39a88498f3da.PNG)
+
+
+
+
+
+
 
